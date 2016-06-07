@@ -1,4 +1,4 @@
-# UIPresentationController 显示控制器
+# UIPresentationController
 > UIPresentationController是iOS 8新加入一个类，能帮助我们方便快捷地实现ViewController的自定义过渡效果。
 
 ## 自定义过渡动画
