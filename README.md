@@ -294,7 +294,7 @@ class ViewController: UIViewController {
 
 最终我们运行效果如下（自定义动画效果）：
 
-![](16060901.gif)
+![16060901](16060901.gif)
 
 （本文参见英文原文：[iOS8 presentation controllers](http://dativestudios.com/blog/2014/06/29/presentation-controllers/)，作者:Pete Callaway）
 
