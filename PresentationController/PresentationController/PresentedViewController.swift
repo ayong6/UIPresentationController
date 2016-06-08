@@ -43,5 +43,23 @@ extension PresentedViewController: UIViewControllerTransitioningDelegate {
             return nil
         }
     }
+    
+    func animationControllerForPresentedController(presented: UIViewController, presentingController presenting: UIViewController, sourceController source: UIViewController) -> UIViewControllerAnimatedTransitioning? {
+        
+        if presented == self {
+            return CustomPresentationAnimationController(isPresenting: true)
+        } else {
+            return nil
+        }
+    }
+    
+    func animationControllerForDismissedController(dismissed: UIViewController) -> UIViewControllerAnimatedTransitioning? {
+        
+        if dismissed == self {
+            return CustomPresentationAnimationController(isPresenting: false)
+        } else {
+            return nil
+        }
+    }
 }
 

@@ -74,9 +74,7 @@ class CustomPresentationController: UIPresentationController {
         }
         
         var frame = containerView.bounds
-        print(frame)
         frame = CGRectInset(frame, 50, 200)
-        print(frame)
         
         return frame
     }

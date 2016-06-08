@@ -16,6 +16,7 @@
 		DDD290F21D06CBDC003C31AA /* PresentationControllerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD290F11D06CBDC003C31AA /* PresentationControllerUITests.swift */; };
 		DDD291001D06CD63003C31AA /* CustomPresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD290FF1D06CD63003C31AA /* CustomPresentationController.swift */; };
 		DDD291021D06D62B003C31AA /* PresentedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD291011D06D62B003C31AA /* PresentedViewController.swift */; };
+		DDD291041D08701E003C31AA /* CustomPresentationAnimationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD291031D08701E003C31AA /* CustomPresentationAnimationController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		DDD290F31D06CBDC003C31AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DDD290FF1D06CD63003C31AA /* CustomPresentationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomPresentationController.swift; sourceTree = "<group>"; };
 		DDD291011D06D62B003C31AA /* PresentedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PresentedViewController.swift; sourceTree = "<group>"; };
+		DDD291031D08701E003C31AA /* CustomPresentationAnimationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomPresentationAnimationController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 				DDD290D31D06CBDC003C31AA /* ViewController.swift */,
 				DDD291011D06D62B003C31AA /* PresentedViewController.swift */,
 				DDD290FF1D06CD63003C31AA /* CustomPresentationController.swift */,
+				DDD291031D08701E003C31AA /* CustomPresentationAnimationController.swift */,
 				DDD290D51D06CBDC003C31AA /* Main.storyboard */,
 				DDD290D81D06CBDC003C31AA /* Assets.xcassets */,
 				DDD290DA1D06CBDC003C31AA /* LaunchScreen.storyboard */,
@@ -265,6 +268,7 @@
 				DDD291001D06CD63003C31AA /* CustomPresentationController.swift in Sources */,
 				DDD291021D06D62B003C31AA /* PresentedViewController.swift in Sources */,
 				DDD290D41D06CBDC003C31AA /* ViewController.swift in Sources */,
+				DDD291041D08701E003C31AA /* CustomPresentationAnimationController.swift in Sources */,
 				DDD290D21D06CBDC003C31AA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -490,6 +494,7 @@
 				DDD290F81D06CBDC003C31AA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DDD290F91D06CBDC003C31AA /* Build configuration list for PBXNativeTarget "PresentationControllerTests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +503,7 @@
 				DDD290FB1D06CBDC003C31AA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DDD290FC1D06CBDC003C31AA /* Build configuration list for PBXNativeTarget "PresentationControllerUITests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +512,7 @@
 				DDD290FE1D06CBDC003C31AA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
